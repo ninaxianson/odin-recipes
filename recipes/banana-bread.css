@@ -1,0 +1,84 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+body { 
+    display: flex;
+    justify-content: center; 
+    background-image: linear-gradient(to right, rgba(255, 255, 0, .3),rgba(255, 255, 0, .5), rgba(255, 255, 0, .3));
+}
+
+.recipe-container {
+    width: 60%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    line-height: 1.7;
+
+}
+h1 {
+    font-size: 4.3em;
+    padding-top: 1em;
+    text-align: center;
+    color: #333;
+    font-weight: 900;
+}
+
+img {
+    display: flex;
+    max-height: 300px;
+    max-width: 400px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+.serving-size {
+    display: block;
+    color: #333;
+    font-style: italic;
+    margin-top: .8 em;
+    margin-bottom: 5em;
+}
+
+h2 {
+    margin-left: 1em;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+p  { 
+    margin-left: 1em;
+    padding: 10px;
+    letter-spacing: 1.3px;
+}
+
+.measurement {
+    font-weight: 800;
+    color: #333;
+    margin-left: 1em;
+}
+
+ul > li {
+    list-style: none;
+    line-height: 1.9;
+    letter-spacing: 1.3px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+ol > li {
+    line-height: 1.9;
+    letter-spacing: 1.3px;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+}
+
+ol > li:last-child {
+    margin-bottom: 9em;
+    margin-left: 2em;
+}
