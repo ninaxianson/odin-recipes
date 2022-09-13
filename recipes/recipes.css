@@ -9,9 +9,28 @@
 body { 
     display: flex;
     justify-content: center; 
-    background-image: linear-gradient(to right, rgba(255, 255, 0, .3),rgba(255, 255, 0, .5), rgba(255, 255, 0, .3));
+    background-image: linear-gradient( bottom right, #f5f7fa 0%, #c3cfe2 100%);
+    color: #29434e;
+
 }
 
+header {
+    margin: 2em;
+    padding: 15px;
+    position: absolute;
+    right: 1em;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #335;
+    
+}
+header > a {
+    text-decoration: none;
+}
+header > a:hover {
+    color: coral;
+}
 .recipe-container {
     width: 60%;
     display: flex;

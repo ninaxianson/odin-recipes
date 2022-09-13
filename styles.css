@@ -7,23 +7,36 @@
 body {
     font-family: 'Lato';
     font-size: 20px;
-    background-color: #333;
-    color: rgba(255, 255, 255, 0.932);
-
+    background: url("https://cdn.pixabay.com/photo/2015/09/16/20/10/dough-943245_960_720.jpg") rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.877);
+    background-blend-mode: color-dodge;
 }
+
 
     h1 {
         text-align: center;
         margin-top: 1.5em;
         font-size: 4em;
         margin-bottom: 1.5em;
+        
+        
+    }
+    ul > li {
+        margin: 2em;
+        list-style: none;
+        text-align: center;
     }
 
  a {
-    color:rgba(255, 255, 255, 0.932);
+    
     text-decoration: none;
-    font-size: 3em;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0.877);
+    
  }
  a:hover {
-    color: aquamarine;
+    color: coral;
  }
